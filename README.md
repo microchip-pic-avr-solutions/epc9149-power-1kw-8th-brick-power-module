@@ -1,6 +1,6 @@
 ![image](images/microchip.jpg) 
 
-## %repoDescritpion%
+## EPC9149 POWER 1KW 8TH BRICK POWER MODULE
 
 Board Image if any.
 
