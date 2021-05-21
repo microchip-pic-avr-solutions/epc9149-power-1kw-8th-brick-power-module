@@ -22,6 +22,7 @@ _archive/
 
 # Netbeans specific
 ~*.*
+.generated_files/
 nbproject/build/
 nbproject/dist/
 nbproject/private/
