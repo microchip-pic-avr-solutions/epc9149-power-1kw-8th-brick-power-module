@@ -1,0 +1,53 @@
+# .gitignore file
+#
+# Set up for Microchip/MPLAB X development
+# 
+# Default gitignore files for code examples, only removing/ignoring usual MPLAB X clutter
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Documentation Directories
+docs/
+
+# Archive Directories
+_archive/
+.archive/
+
+# Executables
+*.exe
+
+# Netbeans specific
+~*.*
+nbproject/build/
+nbproject/dist/
+nbproject/private/
+nbproject/disassembly/
+build/
+dist/
+private/
+disassembly/
+*.zip
+*.mk
+*.bash
+Makefile-genesis.properties
+
+# MPLAB X Trace specific
+*.log
+*.inx
+
+# KDE specific
+.directory
+
+# Misc
+.svn
+*.bak
+
+#Exclude informal profect directories
+docs/
+test_results/
+
+
