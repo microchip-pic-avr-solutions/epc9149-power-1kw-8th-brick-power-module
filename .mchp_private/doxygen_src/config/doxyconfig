@@ -1,0 +1,47 @@
+# These are all user defined settings overwriting default doxyfile settings
+
+PROJECT_NAME        = "Doxygen Example from Include File"
+PROJECT_NUMBER      = DV330101-r5.0
+PROJECT_BRIEF       = "Brief Project Description from Include File"
+PROJECT_LOGO        = ./microchip-docs.png
+OUTPUT_DIRECTORY    = ../../../docs
+
+STRIP_FROM_PATH     = ../../../
+STRIP_FROM_INC_PATH = ../../../doxymple.X/sources
+
+ENABLED_SECTIONS    += MY_OPTION_LABEL
+ENABLED_SECTIONS    += MY_OPTION_LABEL2
+LAYOUT_FILE         += mchp_layout.xml
+
+INPUT               += ../../../doxymple.X/sources
+INPUT               += ../../../README.md
+INPUT               += ../dox-files
+INPUT               += ../markdown-files
+
+FILE_PATTERNS       += *.c
+FILE_PATTERNS       += *.h
+FILE_PATTERNS       += *.dox
+FILE_PATTERNS       += *.txt
+FILE_PATTERNS       += *.md
+FILE_PATTERNS       += *.s
+FILE_PATTERNS       += *.S
+FILE_PATTERNS       += *.inc
+
+IMAGE_PATH          	+= ../../../images
+
+# USE_MDFILE_AS_MAINPAGE 	+= ../../../README.md
+# HTML_HEADER         	+= mchpheader.html
+# HTML_FOOTER            	+= mchpfooter.html
+# HTML_EXTRA_STYLESHEET   += mchp.css
+# HTML_EXTRA_STYLESHEET   += mchp_theme.css
+# DOTFILE_DIRS           	*= ../dot-files
+
+PREDEFINED             	+= __attribute__(x)=
+PREDEFINED             	+= MY_OPTION
+
+EXCLUDE					+= ../../../doxymple.X/sources/fault_handler/drivers/README.md
+EXCLUDE					+= ../../../doxymple.X/sources/common/p33c_pral/README.md
+
+ENABLED_SECTIONS        += INCLUDE_BOOST
+ENABLED_SECTIONS        += INCLUDE_LCD
+
