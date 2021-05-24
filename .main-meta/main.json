@@ -1,0 +1,57 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.0.0",
+      "name":"com.microchip.mplabx.project.epc9149-power-1kw-8th-brick-power-module",
+      "version":"1.0.0",
+      "displayName":"EPC9149 1 kW LLC 1/8th Brick Size Module",
+      "projectName":"epc9149-power-1kw-8th-brick-power-module",
+      "shortDescription":"4:1 Fixed Conversion Rate, 1 MHz Operation Firmware Example",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.40.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^1.50.0"
+      },
+      "dfp":{
+         "name":"dsPIC33CK-MP_DFP",
+         "semverRange":">=1.4.102"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=4.0.1"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33CK32MP102",
+            "versionRange":"*"
+         }
+      },
+      "peripherals":[
+        "UART",
+        "PWM",
+        "SMPS PWM",
+        "ADC",
+        "TIMER"
+      ],
+      "subcategories": [
+		"Power"
+       ],
+      "keywords":[
+		"dsPIC",
+        "DSC",
+        "Digital Power Conversion",
+        "Digital Filters",
+        "Power Conversion",
+        "Power Supply",
+		"SMPS"
+      ]
+   }
+}
